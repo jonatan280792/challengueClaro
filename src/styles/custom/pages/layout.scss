@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: '$proxima-nova' !important;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.label-detail {
+  display: block;
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: center;
+}

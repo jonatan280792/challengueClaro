@@ -1,0 +1,13 @@
+<section class="section-charactetistics">
+  <div class="container">
+    <div class="charactetistics">
+      <article *ngFor="let items of dataCharacteristics">
+        <mat-card class="card-item mat-elevation-z2">
+          <div class="title-name">
+            {{ items.versions[0].name }}
+          </div>
+        </mat-card>
+      </article>
+    </div>
+  </div>
+</section>

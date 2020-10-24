@@ -1,0 +1,13 @@
+// Fonts
+@import './fonts/fonts';
+
+@import "./pages/layout";
+
+.layout-pages {
+  background: $color-gray2;
+  color: $color-secundary;
+  padding: 16px 0;
+  min-height: 100vh;
+
+  @import './pages/offers';
+}

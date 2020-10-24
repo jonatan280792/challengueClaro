@@ -1,0 +1,16 @@
+<section class="section-price">
+  <div class="container">
+    <div class="price">
+      <article *ngFor="let items of dataPrices">
+        <mat-card class="card-price mat-elevation-z2">
+          <div class="title-name">
+            {{ items.versions[0].name }}
+          </div>
+          <div class="price">
+            $ {{ items.versions[0].price.amount | number }}
+          </div>
+        </mat-card>
+      </article>
+    </div>
+  </div>
+</section>
